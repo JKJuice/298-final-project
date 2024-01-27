@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      margin: 0;
+      font-family: "Arial", sans-serif;
+    }
+    .header {
+      background-color: #556ed1;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .header-text {
+      text-align: right;
+      font-size: 24px;
+    }
+    .content {
+      padding: 20px;
+      text-align: center;
+    }
+    .logo {
+      align-content: left;
+      padding-left: 20px;
+      max-height: 50px;
+      max-width: 50px;
+    }
+    .group {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    li {
+      min-width: 200px;
+      flex: 1;
+      height: 200px;
+      overflow: scroll;
+    }
+    .footer {
+      background-color: #b9b9b9;
+      padding: 10px;
+      text-align: center;
+      position: relative;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <a href="#home">
+      <img class="logo" src="https://www.freeiconspng.com/thumbs/swimming-icon-png/black-white-swimming-8.png">
+    </a>
+    <a href="#about" class="header-text">About Me</a>
+    <a href="#lessons" class="header-text">Lessons</a>
+    <a href="#contact" class="header-text">Contact</a>
+  </div>
+
+  <div class="content">
+    <h1 id="home">Learning to Swim</h2>
+    <h4>Everbody should learn how to swim. Regardless of age, gender, etc, we all need to learn to float. I can facilitate that process.</h4>
+    <h1 id="about">About Me</h2>
+    <h4>
+        I started swimming competitively at local swim club called Novaquatics since I was seven, and have swam ever since. I have made into national-level qualifying competitions such as Futures Championships, Junior Nationals, Junior Olympics, and Speedo Sectionals and won top three medals at those competitions. 
+        I am also certified as a coach on the USA Swimming organization, and have been trained with all the necessary qualifications such as CPR training, Safe Sport, etc.</h4>
+    <h1 id="lessons">Lessons</h2>
+    <ul class="group">
+      <li>Monday</li>
+      <li>Tuesday</li>
+      <li>Wednesday</li>
+      <li>Thursday</li>
+      <li>Friday</li>
+      <li>Saturday</li>
+      <li>Sunday</li>
+    </ul>
+  </div>
+
+  <div id="contact" class="footer">
+    <p>949-246-5029</p>
+    <p>younkim@chapman.edu</p>
+  </div>
+
+</body>
+</html>
